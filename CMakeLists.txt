@@ -13,4 +13,5 @@ set(SOURCES
 )
 
 add_executable(chip8_emulator ${SOURCES})
-target_link_libraries(chip8_emulator PRIVATE ${SDL2_LIBRARIES})
+target_link_libraries(chip8_emulator PRIVATE "${SDL2_LIBRARY}")
+target_include_directories(chip8_emulator PRIVATE "${SDL2_INCLUDE_DIR}")
