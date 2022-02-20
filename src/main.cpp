@@ -3,7 +3,6 @@
 #include <SDL.h>
 #include <cstdint>
 #include <fstream>
-#include <format>
 #include <cstdlib>
 #include <thread>
 #include <chrono>
@@ -131,8 +130,8 @@ int main(int argc, char* argv[]) {
                     }
                 }
             }
-            std::cout << std::format("index register {}\n", index_register);
-            std::cout << std::format("opcode 0x{:X}{:X}{:X}{:X}\n", nibble_1(byte_one), nibble_2(byte_one), nibble_1(byte_two), nibble_2(byte_two));
+            std::cout << "index register " << index_register << "\n";
+            std::cout << "opcode 0x" << std::uppercase << std::hex << nibble_1(byte_one) << nibble_2(byte_one) << nibble_1(byte_two) << nibble_2(byte_two) << "\n";
         }
 
         // Decode
