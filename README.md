@@ -16,7 +16,11 @@ $ `brew install sdl2 cmake`
 ### Clone and compile
 $ `git clone https://github.com/KolbyML/chip8-emulator.git`
 
-$ `cmake`
+$ `cd chip8-emulator`
+
+$ `cmake --configure .`
+
+$ `cmake --build .`
 
 Congratz 🥳🎉🎉
 
