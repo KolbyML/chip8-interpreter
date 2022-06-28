@@ -1,5 +1,5 @@
-# Chip8 Emulator
-A Chip8 Emulator written in C++ using the SDL2 library
+# Chip8 Interpreter
+A Chip8 Interpreter written in C++ using the SDL2 library
 
 ![img.png](img.png)
 # Install
@@ -14,9 +14,9 @@ $ `sudo apt-get install libsdl2-dev cmake`
 $ `brew install sdl2 cmake`
 
 ### Clone and compile
-$ `git clone https://github.com/KolbyML/chip8-emulator.git`
+$ `git clone https://github.com/KolbyML/chip8-interpreter.git`
 
-$ `cd chip8-emulator`
+$ `cd chip8-interpreter`
 
 $ `cmake --configure .`
 
@@ -25,7 +25,7 @@ $ `cmake --build .`
 Congratz 🥳🎉🎉
 
 # Usage
-Drag and drop a chip8 rom onto chip8-emulator.exe
+Drag and drop a chip8 rom onto chip8-interpreter.exe
 
 or in the terminal run
 
