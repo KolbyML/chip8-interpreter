@@ -120,7 +120,7 @@ int main(int argc, char* argv[]) {
             bool quit = false;
             while (!quit)
             {
-                if (SDL_PollEvent(&event)) {
+                if (SDL_WaitEvent(&event)) {
                     switch (event.type) {
                         case SDL_QUIT:
                             goto finish;
